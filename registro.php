@@ -5,7 +5,7 @@
 include("./conexion.php");
 
 
-$id_usuario = $_POST['id_usuario']; 
+$id_usuario = $_POST['id_usuario']; // que paso aqui esta malo tiene 0
 $clave = $_POST['clave']; 
 $nombres = $_POST['nombres']; 
 $apellidos = $_POST['apellidos']; 
